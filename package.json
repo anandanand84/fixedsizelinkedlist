@@ -1,0 +1,17 @@
+{
+  "name": "fixedsizelinkedlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "lib/index.js",
+  "types": "./declarations/index.d.ts",
+  "jsnext:main": "lib/index.js",
+  "scripts": {
+    "cover": "istanbul --include-all-sources cover -x dist/*.* ./node_modules/mocha/bin/_mocha -- -R spec && open coverage/lcov-report/index.html",
+    "test": "mocha",
+    "build-lib": "rollup -c"
+  },
+  "author": "Anand Aravindan <anand.anand84@gmail.com> (traderslab.in)",
+  "license": "ISC"
+}
