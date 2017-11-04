@@ -2,7 +2,7 @@
  * Created by AAravindan on 5/7/16.
  */
 import { LinkedList } from './LinkedList';
-export default class FixedSizeLinkedList extends LinkedList {
+export declare class FixedSizeLinkedList extends LinkedList {
     size: number;
     maintainHigh: boolean;
     maintainLow: boolean;

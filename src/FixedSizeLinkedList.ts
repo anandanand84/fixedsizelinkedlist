@@ -3,7 +3,7 @@
  */
 import { LinkedList } from './LinkedList';
 
-export default class FixedSizeLinkedList extends LinkedList {
+export class FixedSizeLinkedList extends LinkedList {
   public periodHigh:number = 0;
   public periodLow:number = Infinity;
   public lastShift:number;

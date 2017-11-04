@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 class Item {
     constructor(data, prev, next) {
         this.next = next;
@@ -219,4 +221,4 @@ class FixedSizeLinkedList extends LinkedList {
     }
 }
 
-module.exports = FixedSizeLinkedList;
+exports.FixedSizeLinkedList = FixedSizeLinkedList;
